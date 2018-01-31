@@ -20,7 +20,6 @@ class UserManager(BaseUserManager):
 
 
 class User(AbstractBaseUser, PermissionsMixin):
-    firm = models.ForeignKey('firm.Firm', verbose_name='Firma', blank=True, null=True, on_delete=models.CASCADE)
     email = models.EmailField(max_length=255, unique=True, verbose_name='E-Mail')
     first_name = models.CharField(max_length=15, blank=True, null=True, verbose_name='First Name')
     last_name = models.CharField(max_length=20, blank=True, null=True, verbose_name='Last Name')
