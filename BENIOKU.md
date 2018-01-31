@@ -1,4 +1,4 @@
-# Custom user model for Django Framework
+# Kullanıcı Modelini Genişlet
 
 > Django'nun kullanıcı modelini genişletmek ve orjinal modelden tek farkının ekstra alanlar 
 > ve e-mail ile giriş yapmak ise doğru yerdesiniz.
