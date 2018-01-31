@@ -31,5 +31,5 @@
 
 `python3 manage.py runserver`
 
->Admin paneline giri yaptığınızda orjinal django user modelinden tek 
+>Admin paneline giriş yaptığınızda orjinal django user modelinden tek 
 >farkının girdiğiniz ekstra alanlar ve email sistemi ile giriş olduğunu göreceksiniz.
